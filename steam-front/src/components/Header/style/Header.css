@@ -2,3 +2,9 @@
   height: 14.35vh;
   background-color: #171d25;
 }
+.HeaderContents {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 14.35vh;
+}

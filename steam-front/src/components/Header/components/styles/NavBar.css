@@ -1,0 +1,17 @@
+.NavBar {
+  display: flex;
+}
+.NavBar p:first-child {
+  margin-left: 30px;
+}
+.NavBar p {
+  margin-right: 12px;
+  color: #dcdedf;
+}
+.nav {
+  cursor: pointer;
+}
+.NavBar .active {
+  color: #187cff;
+  border-bottom: 3px solid #187cff;
+}

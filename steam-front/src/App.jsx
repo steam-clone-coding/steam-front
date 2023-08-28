@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <Header/>
       <div className="Contents" style={{height:"100vh"}}>
-        {/* 이 안에 라우팅 */}
         ㅎㅇㅎㅇ
       </div>
       <Footer/>
