@@ -1,0 +1,17 @@
+.DropDownStore {
+  background-color: #3d4450;
+  color: #dcdedf;
+  font-size: 12px;
+  width: 8em;
+  position: absolute;
+  top: 65px;
+  left: 32.5%;
+}
+.subMenu {
+  padding: 0.7em;
+  cursor: pointer;
+}
+.subMenu:hover {
+  background-color: #fefefe;
+  color: #000000;
+}

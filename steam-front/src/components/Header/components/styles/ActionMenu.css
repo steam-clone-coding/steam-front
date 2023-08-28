@@ -1,0 +1,36 @@
+.ActionMenu {
+  width: 40%;
+  position: relative;
+  bottom: 30px;
+  left: 32.5%;
+}
+#installBtn {
+  background-color: #5c7e10;
+  border: none;
+  color: #dcdedf;
+  background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+  background-repeat: no-repeat;
+  font-weight: normal;
+  padding-left: 35px;
+  padding-right: 9px;
+  background-position: 10px 5px;
+  font-size: 11px;
+  line-height: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#installBtn:hover {
+  background-color: #6c9018;
+  color: #ffffff;
+}
+.acMenu {
+  color: #b8b6b4;
+  font-size: 11px;
+  padding: 4px 0;
+}
+.possibleMenu {
+  cursor: pointer;
+}
+.possibleMenu:hover {
+  color: #ffffff;
+}
