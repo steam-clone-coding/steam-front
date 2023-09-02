@@ -1,0 +1,15 @@
+.FooterValve {
+  display: flex;
+  color: #c6d4df;
+  font-size: 12px;
+  margin-left: 18.5%;
+}
+.snsLogo {
+  line-height: 100px;
+}
+.FooterValve p {
+  cursor: pointer;
+}
+.FooterValve p:hover {
+  color: #ffffff;
+}
