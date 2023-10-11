@@ -6,8 +6,10 @@ const LoginPage = () => {
 
   return (
     <div className='login'>
-      Login Page
-      <LoginForm/>
+      <div className='login_top'>
+        <span className='login_title'>로그인</span>
+        <LoginForm/>
+      </div>
       <div className='login_bottom'>
         <div className='login_bottom_signup'>
           <p>Steam에 처음 오셨나요?</p>

@@ -1,3 +1,14 @@
 .login{
-  
+  box-sizing: border-box;
+  height: 100%;
+  border : 2px solid white;
+}
+.login > .login_top > .login_title{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.login > .login_top{
+  background-image: url('https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg');
+  border : 2px solid white;
 }
