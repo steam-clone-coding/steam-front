@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../../components/Button/Button';
 import '../styles/LoginForm.css';
 
 const LoginForm = () => {
@@ -22,7 +23,12 @@ const LoginForm = () => {
           </div>
           로그인 정보 저장
         </label>
-        <button type='submit' value="Submit">로그인</button>
+        <Button
+          type='submit'
+          className='blue-gradient-button'
+          onClick={()=>{}}
+          label='로그인'
+        />
       </form>
     </div>
   );
