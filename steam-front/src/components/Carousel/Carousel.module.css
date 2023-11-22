@@ -1,0 +1,80 @@
+.carouselDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselLeftArrorw {
+  background: linear-gradient(to left, #213d58 0%, #131d28 80%);
+  cursor: pointer;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.carouselLeftArrorw:hover {
+  background: linear-gradient(to left, #5882fa 0%, #213d58 80%);
+}
+.carouselRightArrorw {
+  background: linear-gradient(to right, #213d58 0%, #131d28 80%);
+  cursor: pointer;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.carouselRightArrorw:hover {
+  background: linear-gradient(to right, #213d58 0%, #5882fa 80%);
+}
+.carouselContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px #131d28;
+}
+.carouselBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.carouselBtn div {
+  margin: 0 3px;
+}
+.carouselImg {
+  height: 300px; /* 또는 원하는 높이 */
+  overflow: hidden;
+}
+.carouselImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 컨테이너를 꽉 채우도록 하면서 비율을 유지함 */
+}
+.close {
+  display: none;
+}
+.closeBtn {
+  background-color: #4e6479;
+  width: 25px;
+  height: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.closebtn:hover {
+  background-color: #59748d;
+}
+.active {
+  display: block;
+}
+.activeBtn {
+  width: 25px;
+  height: 15px;
+  background-color: #7a8b9b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+p {
+  margin-left: 50px;
+}
