@@ -1,0 +1,59 @@
+.DropDownNew {
+  position: absolute;
+  top: 35px;
+  left: 8%;
+  background: linear-gradient(
+      90deg,
+      rgba(33, 162, 255, 0.1) 1.89%,
+      rgba(50, 50, 51, 0) 50%
+    ),
+    linear-gradient(180deg, #575860 11.6%, #3a4852 54.73%, #2c2d34 100%);
+  width: 36%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.newMenu {
+  width: fit-content;
+  cursor: pointer;
+  color: #d8d8d8;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+
+.newMenu:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 7px;
+}
+
+.newMenu-Popular,
+.newMenu-Promotion {
+  padding: 6% 3% 3% 3%;
+}
+
+.newMenu-Game {
+  margin-bottom: 10%;
+}
+
+.newMenu-Title,
+.newMenu {
+  padding: 6% 0px;
+}
+
+.newMenu-Title {
+  color: #2ebfff;
+  font-size: 11px;
+}
+
+.newMenu-Line-Vertical {
+  border: 1px solid #333333;
+  margin: 10px 0px;
+}
+
+.newMenu-Line-Horizontal {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(216, 216, 216, 0.3), transparent);
+  width: 50%;
+  margin: 5% 0px;
+}
