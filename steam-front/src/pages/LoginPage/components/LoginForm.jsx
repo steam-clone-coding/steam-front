@@ -6,6 +6,9 @@ const LoginForm = () => {
 
   return (
     <div className='loginform'>
+      <div className='login_title'>
+        <span>로그인</span>
+      </div>
       <form>
         <label>
           계정 이름으로 로그인
