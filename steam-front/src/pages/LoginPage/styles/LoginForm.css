@@ -5,6 +5,15 @@
   padding-top: 80px;
   padding-bottom: 150px;
 }
+.loginform > .login_title{
+  min-width: 636px;
+  margin-bottom: 32px;
+}
+.loginform > .login_title > span{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
 .loginform > form{
   display: flex;
   flex-direction: column;

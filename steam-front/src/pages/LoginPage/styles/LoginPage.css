@@ -1,14 +1,46 @@
 .login{
   box-sizing: border-box;
   height: 100%;
-  border : 2px solid white;
-}
-.login > .login_top > .login_title{
-  color: #fff;
-  font-size: 28px;
-  font-weight: 800;
 }
 .login > .login_top{
   background-image: url('https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg');
-  border : 2px solid white;
+}
+
+.login > .login_bottom{
+  box-sizing: border-box;
+  display: flex;
+  padding-top: 48px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  justify-content: center;
+  background-color: #181A21;
+}
+
+.login_bottom_signup{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 300px
+}
+.login_bottom_signup > p{
+  font-size: 20px;
+  font-weight: 800;
+}
+.login_bottom_signup > button{
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.login_bottom_subtext{
+  max-width: 300px;
+}
+.login_bottom_subtext > p{
+  font-size: 14px;
+  color: #b8b6b4;
 }
