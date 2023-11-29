@@ -1,0 +1,74 @@
+.DropDownCategory {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(
+      90deg,
+      rgba(33, 162, 255, 0.1) 1.89%,
+      rgba(50, 50, 51, 0) 50%
+    ),
+    linear-gradient(180deg, #575860 11.6%, #3a4852 54.73%, #2c2d34 100%);
+}
+
+.dropDownCategory-Special {
+  flex-basis: 20%; /* 20% 넓이 설정 */
+  padding: 2.5% 2%;
+}
+
+.dropDownCategory-Genre {
+  flex-basis: 60%; /* 60% 넓이 설정 */
+  padding: 2.5% 2%;
+}
+
+.dropDownCategory-Thema {
+  flex-basis: 20%; /* 20% 넓이 설정 */
+  padding: 2.5% 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryMenu-Thema {
+  margin-bottom: 15%;
+}
+
+.categoryMenu-Title {
+  margin-bottom: 5%;
+  color: #2ebfff;
+  font-size: 11px;
+}
+
+.categoryMenu {
+  padding: 4% 0px;
+  width: fit-content;
+  cursor: pointer;
+  color: #d8d8d8;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.blank {
+  margin-bottom: 10%;
+}
+
+.categoryMenu:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 7px;
+}
+
+.categoryMenu-Line-Horizontal {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(216, 216, 216, 0.3), transparent);
+  width: 50%;
+  margin: 5% 0px;
+}
+
+.categoryMenu-Line-Vertical {
+  border: 1px solid #333333;
+}
+
+.categoryMenu-Genre {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: -3.5%;
+}
