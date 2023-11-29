@@ -1,0 +1,10 @@
+.blue-gradient-button{
+  background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+}
